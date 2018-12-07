@@ -7,7 +7,6 @@ M2= "P8_10"
 GPIO.setup(M1, GPIO.OUT)             # setting motor pins as output
 GPIO.setup(M2, GPIO.OUT)
 
-
 while True:                          # to run continously
 	GPIO.output(M1, GPIO.HIGH)   # to run forward
         GPIO.output(M2, GPIO.LOW)    
