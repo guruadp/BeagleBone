@@ -3,13 +3,10 @@ import time                          # importing time library for delay
 
 M1= "P8_8"                           # declaring motor pins
 M2= "P8_10"
-M3= "P8_12"
-M4= "P8_14" 
 
 GPIO.setup(M1, GPIO.OUT)             # setting motor pins as output
 GPIO.setup(M2, GPIO.OUT)
-GPIO.setup(M3, GPIO.OUT)
-GPIO.setup(M4, GPIO.OUT)
+
 
 while True:                          # to run continously
 	GPIO.output(M1, GPIO.HIGH)   # to run forward
